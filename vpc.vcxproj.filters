@@ -23,9 +23,6 @@
     <Filter Include="Source Files\dlmalloc">
       <UniqueIdentifier>{470b9814-bd83-48c5-be3e-d8007cedbc7d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\vpccrccheck">
-      <UniqueIdentifier>{eb462a40-67b6-48f3-bb7d-d820974c656a}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="interfaces\interfaces.cpp">
@@ -241,8 +238,8 @@
     <ClCompile Include="tier0\win32consoleio.cpp">
       <Filter>Source Files\tier0</Filter>
     </ClCompile>
-    <ClCompile Include="utils\vpccrccheck\crccheck_shared.cpp">
-      <Filter>Source Files\vpccrccheck</Filter>
+    <ClCompile Include="utils\vpc\crccheck_shared.cpp">
+      <Filter>Source Files\vpc</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

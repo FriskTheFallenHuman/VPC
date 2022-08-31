@@ -79,7 +79,6 @@
     <ClCompile Include="tier1\utlbuffer.cpp" />
     <ClCompile Include="tier1\utlstring.cpp" />
     <ClCompile Include="tier1\utlsymbol.cpp" />
-    <ClCompile Include="utils\vpccrccheck\crccheck_shared.cpp" />
     <ClCompile Include="utils\vpc\baseprojectdatacollector.cpp" />
     <ClCompile Include="utils\vpc\conditionals.cpp" />
     <ClCompile Include="utils\vpc\configuration.cpp" />
@@ -89,6 +88,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="utils\vpc\crccheck_shared.cpp" />
     <ClCompile Include="utils\vpc\dependencies.cpp" />
     <ClCompile Include="utils\vpc\exprsimplifier.cpp" />
     <ClCompile Include="utils\vpc\generatordefinition.cpp" />

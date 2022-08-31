@@ -1589,16 +1589,22 @@ void CVPC::SetMacrosAndConditionals()
 		case k_EVSVersion_2022:
 			m_ExtraOptionsCRCString += "VS2022";
 			SetConditional("VS2022", true);
+			// temporarily allow VS2013 conditionals also as there are many. Will fix.
+			SetConditional("VS2013", true);
 			m_bUseVS2010FileFormat = true;
 			break;
 		case k_EVSVersion_2019:
 			m_ExtraOptionsCRCString += "VS2019";
 			SetConditional("VS2019", true);
+			// temporarily allow VS2013 conditionals also as there are many. Will fix.
+			SetConditional("VS2013", true);
 			m_bUseVS2010FileFormat = true;
 			break;
 		case k_EVSVersion_2015:
 			m_ExtraOptionsCRCString += "VS2015";
 			SetConditional( "VS2015", true );
+			// temporarily allow VS2013 conditionals also as there are many. Will fix.
+			SetConditional("VS2013", true);
 			m_bUseVS2010FileFormat = true;
 			break;
 		case k_EVSVersion_2013:
